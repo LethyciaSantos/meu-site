@@ -1,6 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
 
 body{
     
-    font-family: "Inter", sans-serif;
+    font-family: 'Playfair Display', serif; 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+p, h1{
+
+}
+.topo{ 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+    padding-left: 20px ;
+}
+a{
+    text-decoration: none; color: black;
+}
+.botão-secundario{
+    border: 2px solid black;
+}
+img{
+    width: 350px;
+}
+.corpo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.esquerdo{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-size: 15px;
+    font-weight: 500;
+    width: 300px;
+    padding-top: 20px;
+}
+.botao-primario{
+    background-color: rgba(212, 13, 212, 0.767);
+    color: rgb(255, 251, 251);
+    font-size: 28px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    width: 220
+    px;
 }
